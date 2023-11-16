@@ -7,7 +7,7 @@ locals {
 }
 
 resource "azurerm_resource_group" "main" {
-  name     = "custom-name-2"
+  name     = "custom-name-3"
   location = var.location
   tags = {
     app         = var.app
